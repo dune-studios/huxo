@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #101010;
+}
+
+      hr {
+        margin-left: 10px;
+        margin: right; 10px;
+      }
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 16px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+img {
+border-radius: 12px;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: flex table;
+  clear: both;
+  background-color: #101010;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+  .nav-link {
+    color: white;
+  }
+
+  .column > h3 {
+  text-overflow: ellipsis;
+  max-height: 1.33em; /* Or whatever line height works for you */
+  word-break: break-all;
+  overflow: hidden;
+  }
+      
+      h1, h2, h3, h4, hr, p {
+        color: white;
+      }
+
+  .column > h3 {
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  }
+
+@font-face {
+src: url("https://cdn-secretgunner.tixte.co/r/PT_Sans_Bold.ttf");
+font-family: 'YT Sans';
+}
+
+      .column {
+    display: inline-block;
+    overflow: hidden;
+      }
+
+      .column > img {
+         -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    
+    vertical-align: middle;
+      }
+
+      .column > img:hover
+    {
+     -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -moz-transform:scale(1.2); /* Firefox */
+    -ms-transform:scale(1.2); /* IE 9 */
+    -o-transform:scale(1.2); /* Opera */
+    transform:scale(1.2);
+      border-radius: 20px;
+    }
+
+  .column {
+    transition: transform .4s;
+    margin-bottom: 0px;
+  }
+
+        .center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+      .navbar {
+        display: flex;
+      }
+
+      p {
+        word-wrap: break-word;
+      }
+      
+h1, h2, h3, .nav-item {
+font-family: 'YT Sans'
+}
+
+
+</style>
+    <title>Huxo Studios</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md sticky-top py-3 navbar-dark bg-dark border-0 shadow-sm" style="padding-left: 10px; padding-right: 10px;"><a href="/" style="text-decoration: underline; color: white;"><h1 style="color: white;">huxo</h1></a><span>
+ <a class="nav-item nav-link shadow-hover" href="/games" style="float: right">Games</a>
+  </span>
+  <a class="nav-item nav-link shadow-hover" href="https://discord.gg/ANtxyExwJY" style="float: right">Support Server</a>
+  <div class="navbar-collapse collapse show" id="navbar" style="">
+  </div>
+    </nav></br>
+    <h1 style="text-align: center;">About Us</h1><hr>
+  <p style="text-align: center; ">I am really cool text that will be replaced soon!!!
+  I am really cool text that will be replaced soon!!!
+  I am really cool text that will be replaced soon!!!</p>
+    <div class="text-align:center;">
+<div class="card translate-middle-x" style="width: 50%; margin-left: 50vw;">
+  <div class="card-body">
+    JMK <span class="badge bg-secondary">Game Developer</span>
+  </div>
+</div>
+      <div class="card translate-middle-x" style="width: 50%; margin-left: 50vw;">
+  <div class="card-body">
+    TheCodeDoc <span class="badge bg-secondary">Web Developer</span>
+  </div>
+</div>
+      <div class="card translate-middle-x" style="width: 50%; margin-left: 50vw;">
+  <div class="card-body">
+   KungPow <span class="badge bg-secondary">BGM Composer</span>
+  </div>
+</div>
+    </div><br>
+  <br><h1 style="text-align:center;">Our Games</h1><hr>
+  <div class="row center" style="margin-left: 25px; margin-right: 25px;">
+
+
+  <div class="column" onclick="window.location.assign('https://sok.secretgunner.repl.co/')" style="background:#101010; color:white;">
+  <img src="https://i.ibb.co/tZRS93S/image.png" class="img card-img-top" alt="..." style="width: 100%;">
+  </div>
+  
+  <div class="column" onclick="window.location.assign('/games/stickbrawl')" style="background:#101010; color:white;">
+  <img src="https://i.ibb.co/Xbjm6Bp/unknown-3-1.png" class="img card-img-top" alt="..." style="width: 100%;">
+  </div>
+  </div>
+  </body>
+</html>
