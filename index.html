@@ -1,8 +1,30 @@
 <html lang="en"><head>
   <style>
-    .shake:hover {
-  animation: forward 2s
-}
+    
+    body {
+      overflow-x: hidden;
+    }
+    .navbar {
+      background-color: #202020;
+    }
+    
+    img {
+         -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+      }
+    
+    img:hover
+    {
+     -webkit-transform:scale(1.08); /* Safari and Chrome */
+    -moz-transform:scale(1.08); /* Firefox */
+    -ms-transform:scale(1.08); /* IE 9 */
+    -o-transform:scale(1.08); /* Opera */
+    transform:scale(1.08);
+      border-radius: 12px;
+    }
   </style>
   <link rel="stylesheet" href="https://spinner.secretgunner.repl.co/style.css">
     <meta charset="utf-8">
@@ -142,7 +164,7 @@
 </svg>
 
 
-    <header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top">
+    <header class="navbar navbar-expand-lg navbar-dark sticky-top">
   <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
       <div class="d-lg-none" style="width: 2.25rem;"></div>
 
@@ -154,7 +176,7 @@
       <svg class="bi" aria-hidden="true"><use xlink:href="#three-dots"></use></svg>
     </button>
 
-    <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+    <div class="offcanvas-lg offcanvas-end flex-grow-1 bg-dark" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
       <div class="offcanvas-header px-4 pb-0">
         <h5 class="offcanvas-title text-white" id="bdNavbarOffcanvasLabel">HuxoStudio</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
@@ -198,15 +220,9 @@
     <div class="bd-masthead mb-3" id="content">
   <div class="container-xxl bd-gutter">
     <div class="col-md-8 mx-auto text-center">
-      <a class="d-flex flex-column flex-lg-row justify-content-center align-items-center mb-4 text-dark lh-sm text-decoration-none">
-        <strong class="d-sm-inline-block p-2 me-2 mb-2 mb-lg-0 rounded-3 masthead-notice badge bg-primary">Coming soon</strong>
-        <span class="text-muted">Stick Brawl, a stickfigure fighting game</span>
-      </a>
       
       <h1 class="mb-3 fw-semibold">Welcome to the HuxoStudio site!</h1>
-      <p class="lead mb-4">HuxoStudio is an independent game development studio founded by Jhon Mark knows as jmk in 2022.<br><br>
-
-We're currently working on 2 awesome games that we can't wait for you to try!</p>
+      <p class="lead mb-4">HuxoStudio is an independent game development studio founded by Jhon Mark knows as jmk in 2022.<br><br></p>
       
       <hr style="width: 100vw;position: absolute; left: 0;">
      
@@ -257,7 +273,7 @@ We're currently working on 2 awesome games that we can't wait for you to try!</p
       <div class="d-flex flex-wrap align-items-center justify-content-center gap-4 mt-4">
         <a class="d-flex flex-column align-items-center text-decoration-none" href="#">
           <img class="shake d-block mb-2" src="https://i.ibb.co/Wpx2Qpf/unknown.png" alt="" width="300" loading="lazy">
-          <span class="text-muted">Stick Brawl</span>
+          <span class="text-muted">Stick Brawl </span> <strong class="d-sm-inline-block p-2 me-2 mb-2 mb-lg-0 rounded-3 masthead-notice badge bg-primary">Coming soon</strong> 
         </a>
         
         
